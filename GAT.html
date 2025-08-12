@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GAT — Grupo Ambientalista do Torto</title>
+  <style>
+    :root{
+      --bg:#f6f7f4;--card:#fff;--primary:#1E8449;--muted:#6b7280;
+      --radius:12px;--maxw:1100px;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#eef7ef 0%,var(--bg)100%);color:#12211b;line-height:1.5;}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px;}
+    header{position:sticky;top:0;backdrop-filter:blur(6px);padding:12px 24px;z-index:40}
+    .nav{display:flex;justify-content:space-between;align-items:center}
+    .brand{font-size:1.4rem;text-decoration:none;color:inherit;display:flex;align-items:center;gap:12px;}
+    .brand img{height:50px; border-radius: 10px;}
+    nav ul{list-style:none;display:flex;gap:16px;padding:0;margin:0}
+    nav a{text-decoration:none;color:var(--muted);font-weight:600}
+    .btn{background:var(--primary);color:#fff;padding:10px 14px;border-radius:10px;font-weight:700;text-decoration:none}
+    section{padding:28px 0}
+    h2{margin-bottom:10px}
+    .lead{color:var(--muted);margin-bottom:16px}
+    .small{font-size:13px;color:var(--muted)}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+    .card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+    .video-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;}
+    .video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+    .gallery{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+    .gallery img{width:100%;border-radius:8px;object-fit:cover;height:180px}
+    @media(min-width:880px){.hero{display:grid;grid-template-columns:1fr 420px;align-items:center;gap:22px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home">
+        <img src="images.jpeg" alt="Logo GAT" />
+        <strong>GAT</strong> – Preservando o Cerrado
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#missao">Missão</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#institucional">Em Ação</a></li>
+          <li><a href="#contato" class="btn">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="home">
+    <section class="hero">
+      <div>
+        <h1>GAT — Protegendo o Cerrado, apoiando brigadistas</h1>
+        <p class="lead">ONG dedicada ao combate a incêndios florestais e proteção ambiental no Cerrado, em Brasília e região.</p>
+        <a href="#sobre" class="btn">Saiba mais</a>
+      </div>
+      <div class="card">
+        <h3>Últimas ações</h3>
+        <ul class="small">
+          <li>Brigada local treinada — Jun 2025</li>
+          <li>Monitoramento de áreas de risco — Jul 2025</li>
+          <li>Oficina educativa em escola rural — Jul 2025</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <section id="equipe" style="padding: 40px; background-color: #f9f9f9;">
+    <h2 style="text-align:center; color: #1E8449;">Nossa Equipe</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 30px;">
+        
+        <div style="text-align: center; width: 200px;">
+            <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\Fabio-Falcao-CEO-da-IARIS.-Credito-da-imagem-Divulgacao-IARIS-1-min-768x512.jpg" alt="Presidente" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #1E8449;">
+            <h3>Presidente</h3>
+            <p>Responsável pela liderança geral do GAT e pela tomada de decisões estratégicas.</p>
+        </div>
+        
+        <div style="text-align: center; width: 200px;">
+            <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\inteligencia-artificial-gestao-pessoas.webp" alt="Social Media" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #1E8449;">
+            <h3>Social Media</h3>
+            <p>Gerencia as redes sociais e a comunicação digital do grupo.</p>
+        </div>
+        
+        <div style="text-align: center; width: 200px;">
+            <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\thispersondoesnotexist-700x700.jpg" alt="Captação de Recursos" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #1E8449;">
+            <h3>Captação de Recursos</h3>
+            <p>Organiza ações e busca parcerias para manter e expandir as atividades da ONG.</p>
+        </div>
+        
+        <div style="text-align: center; width: 200px;">
+            <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\Fabio-Falcao-CEO-da-IARIS.-Credito-da-imagem-Divulgacao-IARIS-1-min-768x512.jpg" alt="Tesoureiro" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 3px solid #1E8449;">
+            <h3>Tesoureiro</h3>
+            <p>Controla e administra as finanças da ONG com transparência e responsabilidade.</p>
+        </div>
+
+    </div>
+</section>
+
+      <p>O <strong>Grupo Ambientalista do Torto (GAT)</strong> é uma ONG sem fins lucrativos com 15 anos de atuação no combate a incêndios florestais e preservação do Cerrado, especialmente em Brasília e entorno.</p>
+      <p>Parcerias com a comunidade são o cerne do nosso trabalho. Em 2018, o Distrito Federal registrou quase 3 mil incêndios florestais, destacando a urgência do nosso apoio.</p>
+      <p>Também realizamos campanhas como <em>“Adote uma Brigada Florestal”</em>, que angaria apoio financeiro e suprimentos para nossos brigadistas.</p>
+      <p>Mantenha-se conectado através da nossa <a href="https://facebook.com" target="_blank">página no Facebook</a> e consulte nossos dados institucionais em portais como Adv Dinamico e Econodata.</p>
+    </section>
+
+    <section id="missao">
+      <h2>Missão</h2>
+      <p class="lead">Conservar o Cerrado, capacitar brigadistas e reduzir incêndios através de educação ambiental, técnicas preventivas e mobilização comunitária.</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Brigadas Comunitárias</h3>
+          <p class="small">Treinamento técnico e suprimentos para brigadistas locais.</p>
+        </div>
+        <div class="card">
+          <h3>Monitoramento e Mapeamento</h3>
+          <p class="small">Mapeamento de risco e queimas prescritas seguras.</p>
+        </div>
+        <div class="card">
+          <h3>Adote uma Brigada Florestal</h3>
+          <p class="small">Campanha de apadrinhamento para fortalecer nossas brigadas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="institucional">
+      <h2>Nosso Trabalho em Ação</h2>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/Bw0zOFbF-xE" title="Vídeo institucional do GAT" allowfullscreen></iframe>
+      </div>
+
+      <h3 style="margin-top:24px;">Galeria de Fotos Reais</h3>
+      <div class="gallery">
+        <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\22687939_2006441836049984_2560878049374571032_n_83489.jpg" alt="Brigadistas combatendo fogo à noite" />
+        <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\brigadistas-df-1 (1).webp" alt="Brigadistas combatendo incêndio ao longo do campo" />
+        <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\ccbb-atividade.jpg" alt="Equipe de brigadistas em área queimada" />
+        <img src="C:\Users\darkr\OneDrive\Desktop\site\fotos\download.jpeg" alt="Brigadista com equipamento de combate ao fogo" />
+            </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p class="small"><strong>E-mail:</strong> contato@gat.org.br</p>
+      <p class="small"><strong>WhatsApp:</strong> (61) 9XXXX‑XXXX</p>
+      <p class="small"><strong>Facebook:</strong> Página Oficial</p>
+    </section>
+
+    <footer class="small">
+      <p>© 2025 Grupo Ambientalista do Torto — Todos os direitos reservados.</p>
+    </footer>
+  </main>
+</body>
+</html>
